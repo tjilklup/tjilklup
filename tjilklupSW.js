@@ -1,5 +1,9 @@
 self.addEventListener('activate', function () {
 
-  console.log("update");
+  setInterval(function() {
+  
+    console.log("update");
+    
+  }, 1000);
 
 });
